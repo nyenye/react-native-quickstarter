@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Quickstarter app",
+    "slug": "quickstarter-app",
+    "version": "0.0.1",
+    "sdkVersion": "19.0.0",
+    "orientation": "portrait",
+    "androidStatusBarColor": "#1f96f2",
+    "privacy": "public",
+  }
+}
