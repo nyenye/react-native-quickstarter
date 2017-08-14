@@ -14,10 +14,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "apollo-client": "^1.9.1",
     "expo": "^19.0.0",
-    "graphql-tag": "^2.4.2",
-    "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.46.1",
