@@ -1,15 +1,21 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import { connect } from 'react-redux'
 import { NavigationActions } from 'react-navigation'
+import { getT } from '../i18n'
+
+const t = getT('sub')
 
 const Sub = ({ goToMain }) =>
   <View>
-    <Text>Sub content</Text>
+    <Text>
+      {t('text')}
+    </Text>
+    <Button title={t('button')} onPress={goToMain} />
   </View>
 
 Sub.navigationOptions = {
-  title: 'Sub screen'
+  title: t('title')
 }
 
 const mapDispatchToProps = dispatch => ({
